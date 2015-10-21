@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://www.mydomain.com/schema">
+  <author>
+    <book title="t1"/>
+    <book title="t2"/>
+  </author>
+</root>
