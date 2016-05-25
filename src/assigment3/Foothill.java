@@ -27,11 +27,15 @@ public class Foothill
 
       // now show it
       System.out.println("   start");
+      
       for (k = 0; k < 100; k++)
       {
-         System.out.println( aut.toStringCurrentGen() );
+    	 
+    	 String s =aut.toStringCurrentGen();
+         System.out.println( s);
          aut.propagateNewGeneration();
       }
+      
       System.out.println("   end");
       inputStream.close();
       

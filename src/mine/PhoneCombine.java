@@ -31,6 +31,7 @@ public class PhoneCombine {
 	}
 
 	public static void main(String[] args) {
+		//"ABC" /*2*/, "DEF"/*3*/
 		int[] a = { 2,3 };
 		//ad, ae, af
 		//bd, be, bf

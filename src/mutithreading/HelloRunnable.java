@@ -11,7 +11,12 @@ public class HelloRunnable implements Runnable {
 	}
 
 	public static void main(String args[]) {
-		(new Thread(new HelloRunnable())).start();
+		
+		HelloRunnable hr = new HelloRunnable();
+		
+		Thread thread = new Thread(hr);
+		
+		thread.start();
 	}
 
 }

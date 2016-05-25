@@ -2,7 +2,7 @@ package factory.design.pattern;
 
 /*
  * LinkedList and ArrayList both implement List Interface but how they work internally is where the differences lies.
- *  Main difference between ArrayList and LinkedList is that 
+ *  MainAbr difference between ArrayList and LinkedList is that 
  *  ArrayList is implemented using __re sizable array 
  *  while LinkedList is implemented using __doubly LinkedList.
  *  

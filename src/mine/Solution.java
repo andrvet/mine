@@ -13,7 +13,7 @@ public class Solution {
 
 	        for(int i=0;i<digits.length();i++){
 	            for(String str: res) {
-	                String letters = map.get(digits.charAt(i));
+	                String letters /* "abc" */= map.get(digits.charAt(i)/* 2 */);
 	                for(int j=0;j<letters.length();j++)
 	                    preres.add(str+letters.charAt(j));
 	            }
